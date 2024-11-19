@@ -1,0 +1,73 @@
+@media screen and (max-width: 479px) {
+    /* FLEX CONTAINER */
+
+    .sm-fx-container {display: flex;}
+
+    /* Flex Direction */
+
+    .sm-fxdir-row {flex-direction: row;}
+    .sm-fxdir-col {flex-direction: column;}
+
+    /* Flex Wrap */
+
+    .sm-fxwr-wrap {flex-wrap: wrap;}
+    .sm-fxwr-nowrap {flex-wrap: nowrap;}
+
+    /* Flex Flow */
+
+    .sm-fxfw-row-wrap {flex-flow: row wrap;}
+    .sm-fxfw-row-nowrap {flex-flow: row nowrap;}
+    .sm-fxfw-col-wrap {flex-flow: column wrap;}
+    .sm-fxfw-col-nowrap {flex-flow: column nowrap;}
+
+    /* Justify Content */
+
+    .sm-justify-start {justify-content: flex-start;}
+    .sm-justify-end {justify-content: flex-end;}
+    .sm-justify-center {justify-content: center;}
+    .sm-justify-between {justify-content: space-between;}
+    .sm-justify-around {justify-content: space-around;}
+    .sm-justify-evenly {justify-content: space-evenly;}
+
+    /* Align Items */
+
+    .sm-alg-item-stretch {align-items: stretch;}
+    .sm-alg-item-start {align-items: flex-start;}
+    .sm-alg-item-end {align-items: flex-end;}
+    .sm-alg-item-center {align-items: center;}
+    .sm-alg-item-baseline {align-items: baseline;}
+
+    /* Align Content */
+
+    .sm-alg-cont-stretch {align-content: stretch;}
+    .sm-alg-cont-start {align-content: flex-start;}
+    .sm-alg-cont-end {align-content: flex-end;}
+    .sm-alg-cont-between {align-content: space-between;}
+    .sm-alg-cont-around {align-content: space-around;}
+    .sm-alg-cont-evenly {align-content: space-evenly;}
+
+    /* GRID */
+
+    .sm-width-1 {width: 8.33%;}
+    .sm-width-2 {width: 16.66%;}
+    .sm-width-3 {width: 25%;}
+    .sm-width-4 {width: 33.33%;}
+    .sm-width-5 {width: 41.66%;}
+    .sm-width-6 {width: 50%;}
+    .sm-width-7 {width: 58.33%;}
+    .sm-width-8 {width: 66.66%;}
+    .sm-width-9 {width: 75%;}
+    .sm-width-10 {width: 83.33%;}
+    .sm-width-11 {width: 91.66%;}
+    .sm-width-12 {width: 100%;}
+
+    /* TAMANHO DE FONTES */
+
+    .sm-font-size-10 {font-size: 10pt;}
+    .sm-font-size-12 {font-size: 12pt;}
+    .sm-font-size-14 {font-size: 14pt;}
+    .sm-font-size-16 {font-size: 16pt;}
+    .sm-font-size-18 {font-size: 18pt;}
+    .sm-font-size-20 {font-size: 20pt;}
+}
+

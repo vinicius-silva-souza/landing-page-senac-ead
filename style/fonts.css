@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "light";
+    src: url('../font/Montserrat-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "light-italic";
+    src: url('../font/Montserrat-LightItalic.ttf') format("truetype");
+}
+
+
+@font-face {
+    font-family: "regular";
+    src: url('../font/Montserrat-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "regular-italic";
+    src: url('../font/Montserrat-Italic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "medium";
+    src: url('../font/Montserrat-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "medium-italic";
+    src: url('../font/Montserrat-MediumItalic.ttf') format("truetype");
+}
+
+
+@font-face {
+    font-family: "bold";
+    src: url('../font/Montserrat-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "bold-italic";
+    src: url('../font/Montserrat-BoldItalic.ttf') format("truetype");
+}
+
+.font-light {font-family: "light";}
+.font-light-italic {font-family: "light-italic";}
+.font-medium {font-family: "medium";}
+.font-medium-italic {font-family: "medium-italic";}
+.font-regular {font-family: "regular";}
+.font-regular-italic {font-family: "regular-italic";}
+.font-bold {font-family: "bold";}
+.font-bold-italic {font-family: "bold-italic";}
+
+

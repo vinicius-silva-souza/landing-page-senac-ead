@@ -1,0 +1,112 @@
+
+/* DEFINICOES GERAIS */
+
+* {box-sizing: border-box; user-select: none;}
+body {margin: 0px;}
+a {color: inherit; cursor: pointer;}
+.img-responsive {
+    width: 100%; 
+    border-radius: 5px;
+}
+
+header {
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* NAV */
+
+nav {padding: 20px 0;}
+
+#nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-btn {
+    text-decoration: none;
+    display: block;
+    background-color: #fff0d9;
+    font-family: "medium";
+    color: #643211;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#top-menu-static {
+    position: static;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+#top-menu-fixed {
+    position: fixed;
+    background-color: #ff914d;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 0 0 10px 10px;
+}
+
+.section-header {text-align: center;}
+#section-sobre {padding: 15px;}
+#section-produtos {text-align: center; padding: 15px;}
+#section-galeria {padding: 15px;}
+
+footer {padding: 15px;}
+footer ul {list-style: none; margin: 0; padding: 0;}
+footer li {
+    padding: 10px; 
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff0d9;
+    color: #643211;
+}
+
+/* CARD DE PRODUTOS */
+
+.card-produtos {
+    padding: 15px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.card-produtos-preco {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card-produtos-peso {
+    font-family: "bold";
+    display: inline-block;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* CORES */
+
+.bkgc-marrom {background-color: #643211;}
+.bkgc-creme {background-color: #fff0d9;}
+.bkgc-pessego {background-color: #ffd79a;}
+.bkgc-laranja {background-color: #ff914d;}
+.clr-marrom {color: #643211;}
+.clr-creme {color: #fff0d9;}
+.clr-pessego {color: #ffd79a;}
+.clr-laranja {color: #ff914d;}
+
+/* ALINHAMENTO DE TEXTO */
+
+.txt-alg-center {text-align: center;}
+.txt-alg-justify {text-align: justify;}
+.txt-alg-right {text-align: right;}
+
+
+
