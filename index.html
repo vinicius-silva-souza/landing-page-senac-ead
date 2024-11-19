@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/default.css">
+    <link rel="stylesheet" href="./style/flexbox.css">
+    <link rel="stylesheet" href="./style/md-flexbox.css">
+    <link rel="stylesheet" href="./style/sm-flexbox.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <script src="./script/default.js"></script>
+    <title>Document</title>
+</head>
+<body class="font-regular">
+    <header class="fx-container width-12 fxdir-col alg-item-center bkgc-marrom clr-creme">
+        <div class="width-2">
+            <img class="img-responsive" src="./media/logo.png" alt="">
+        </div>
+        <nav name="top-menu" class="width-12">
+            <ul id="nav-list" class="fx-container justify-evenly txt-alg-center">
+                <li class="sm-width-3 md-width-2 width-2"><a class="nav-btn font-bold" href="#sobre">Sobre</a></li>
+                <li class="sm-width-3 md-width-2 width-2"><a class="nav-btn font-bold" href="#produtos">Produtos</a></li>
+                <li class="sm-width-3 md-width-2 width-2"><a class="nav-btn font-bold" href="#galeria">Galeria</a></li>
+                <li class="sm-width-3 md-width-2 width-2"><a class="nav-btn font-bold" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section-sobre" class="width-12 fx-container fxdir-col alg-item-center bkgc-creme clr-marrom font-medium">
+            <div class="sm-width-10 width-7 txt-alg-center">
+                <h1 id="sobre">Sobre</h1>
+                <p>Somos uma pequena confeitaria criada no ano 2021.</p> 
+                <p class="txt-alg-justify">Temos como diferencial a atenção, o zelo, o amor e a qualidade. Por meio de nossas talentosas mãos, tais atributos são refletidos na apresentação e sabor de nossos produtos.</p>
+            </div>
+            <div class="sm-width-10 width-7">
+                <p>Alguns de nosso principais produtos, são:</p>
+                <ul>
+                    <li>Brigadeiros, beijinho, olho de sogra</li>
+                    <li>Trufas</li>
+                    <li>Cone trufado</li>
+                    <li>Barras de chocolate</li>
+                </ul>
+            </div>
+        </section>
+        <section id="section-produtos" class="width-12 bkgc-marrom">
+            <div class="section-header clr-creme font-medium">
+                <h1 id="produtos">Produtos</h1>
+                <p>Confira alguns de nossos produtos, seus sabores e preço sugerido.</p>
+            </div>
+            <div class="fx-container fxfw-row-wrap justify-evenly">
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/brigadeiros.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <h2 class="font-size-14 font-bold">Brigadeiro tradicional</h2>
+                        <p>Cobertos de granulado ou flocos de amendoim</p>
+                        <p class="card-produtos-peso">Peso: 15gr ou 20gr</p>
+                        <p class="card-produtos-preco bkgc-marrom clr-pessego">R$ 00,00 (50 unidades)</p>
+                        <p class="card-produtos-preco bkgc-marrom clr-pessego">R$ 00,00 (100 unidades)</p>
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom ">
+                    <div>
+                        <img class="img-responsive" src="./media/cone-trufado-2.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <h2 class="font-size-14 font-bold">Cone Trufado</h2>
+                        <p>Nos sobores Brigadeiro, Ninho com Nutella, Prestígio e Maracuja</p>
+                        <p class="card-produtos-peso">Peso: 50gr</p>
+                        <p class="card-produtos-preco bkgc-marrom clr-pessego">R$ 8,00 (Cada unidade)</p>
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom ">
+                    <div>
+                        <img class="img-responsive" src="./media/trufas.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <h2 class="font-size-14 font-bold">Trufas</h2>
+                        <p>Nos sabores brigadeiro, prestígio, maracujá, amendoim...</p>
+                        <p class="card-produtos-peso">Peso: 30gr</p>
+                        <p class="card-produtos-preco bkgc-marrom clr-pessego">R$ 3,50 (Cada unidade)</p>
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom ">
+                    <div>
+                        <img class="img-responsive" src="./media/barra-chocolate.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <h2 class="font-size-14 font-bold">Barrinhas de chocolate</h2>
+                        <p>Recheadas nos sabores brigadeiro, amendoim, maracujá, prestigio e morango</p>
+                        <p class="card-produtos-peso">Peso: 25gr</p>
+                        <p class="card-produtos-preco bkgc-marrom clr-pessego">R$ 3,50 (Cada unidade)</p>
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/super-bis.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <h2 class="font-size-14 font-bold">Super Bis</h2>
+                        <p>Bolachas waffer cobertas com chocolate</p>
+                        <p class="card-produtos-peso">Peso: 10gr</p>
+                        <p class="card-produtos-preco bkgc-marrom clr-pessego">R$ 3,00 (Cada unidade)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-galeria" class="width-12 fx-container fxdir-col alg-item-center bkgc-creme clr-marrom font-medium">
+            <div class="sm-width-10 width-7 txt-alg-center">
+                <h1 id="galeria">Galeria</h1>
+                <p>Aprecie algumas das fotos de nosso trabalho :-)</p> 
+            </div>
+            <div class="fx-container fxfw-row-wrap justify-evenly">
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/barra-chocolate-2.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/barra-chocolate.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/brigadeiros.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/cone-trufado-2.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/cone-trufado.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/super-bis.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="card-produtos sm-width-9 md-width-5 width-3 bkgc-pessego clr-marrom">
+                    <div>
+                        <img class="img-responsive" src="./media/trufas.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="fx-container width-12 fxdir-col alg-item-center bkgc-marrom clr-creme">
+        <div class="section-header font-medium">
+            <h1 id="contato">Contato</h1>
+            <p>Ficaremos felizes em atendê-los seja em qualquer forma de contato.</p>
+        </div>
+        <ul>
+            <li>
+                <span class="font-bold">Instagram: </span>
+                <span class="font-medium">@doce-maluh-confeitaria</span>
+            </li>
+            <li>
+                <span class="font-bold">Facebook: </span>
+                <span class="font-medium"> /doce-maluh-confeitaria</span>
+            </li>
+            <li>
+                <span class="font-bold">E-mail: </span>
+                <span class="font-medium">contato@docemalu.com.br</span>
+            </li>
+            <li>
+                <span class="font-bold">Tel./Whats: </span>
+                <span class="font-medium">(99) 9.9123-4567</span>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
